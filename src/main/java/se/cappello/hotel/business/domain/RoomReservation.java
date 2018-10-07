@@ -1,4 +1,4 @@
-package se.cappello.london.business.domain;
+package se.cappello.hotel.business.domain;
 
 import java.util.Date;
 

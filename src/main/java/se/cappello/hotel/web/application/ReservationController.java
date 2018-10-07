@@ -1,4 +1,4 @@
-package se.cappello.london.web.application;
+package se.cappello.hotel.web.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,11 +6,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import se.cappello.london.business.domain.RoomReservation;
-import se.cappello.london.business.service.ReservationService;
+import se.cappello.hotel.aspect.Loggable;
+import se.cappello.hotel.business.domain.RoomReservation;
+import se.cappello.hotel.business.service.ReservationService;
 
-import java.text.ParseException;
-import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -21,6 +20,7 @@ public class ReservationController {
     private ReservationService reservationService;
 
     @RequestMapping(method = RequestMethod.GET)
+    @Loggable
     public String getReservations(@RequestParam(value = "date", required = false)
                                               String date, Model model) {
 

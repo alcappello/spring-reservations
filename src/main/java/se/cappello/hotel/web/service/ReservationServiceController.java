@@ -1,12 +1,12 @@
-package se.cappello.london.web.service;
+package se.cappello.hotel.web.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import se.cappello.london.business.domain.RoomReservation;
-import se.cappello.london.business.service.ReservationService;
+import se.cappello.hotel.business.domain.RoomReservation;
+import se.cappello.hotel.business.service.ReservationService;
 
 import java.util.List;
 

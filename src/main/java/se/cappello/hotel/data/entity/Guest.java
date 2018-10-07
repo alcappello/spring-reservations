@@ -1,4 +1,4 @@
-package se.cappello.london.data.entity;
+package se.cappello.hotel.data.entity;
 
 import javax.persistence.*;
 

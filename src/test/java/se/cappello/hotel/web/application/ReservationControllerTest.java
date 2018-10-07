@@ -1,4 +1,4 @@
-package se.cappello.london.web.application;
+package se.cappello.hotel.web.application;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,8 +7,8 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import se.cappello.london.business.domain.RoomReservation;
-import se.cappello.london.business.service.ReservationService;
+import se.cappello.hotel.business.domain.RoomReservation;
+import se.cappello.hotel.business.service.ReservationService;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

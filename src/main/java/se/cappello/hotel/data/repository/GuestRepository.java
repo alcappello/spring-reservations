@@ -1,6 +1,6 @@
-package se.cappello.london.data.repository;
+package se.cappello.hotel.data.repository;
 
-import se.cappello.london.data.entity.Guest;
+import se.cappello.hotel.data.entity.Guest;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 

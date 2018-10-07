@@ -1,6 +1,6 @@
-package se.cappello.london.data.repository;
+package se.cappello.hotel.data.repository;
 
-import se.cappello.london.data.entity.Reservation;
+import se.cappello.hotel.data.entity.Reservation;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,14 +1,14 @@
-package se.cappello.london.business.service;
+package se.cappello.hotel.business.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import se.cappello.london.business.domain.RoomReservation;
-import se.cappello.london.data.entity.Guest;
-import se.cappello.london.data.entity.Reservation;
-import se.cappello.london.data.entity.Room;
-import se.cappello.london.data.repository.GuestRepository;
-import se.cappello.london.data.repository.ReservationRepository;
-import se.cappello.london.data.repository.RoomRepository;
+import se.cappello.hotel.business.domain.RoomReservation;
+import se.cappello.hotel.data.entity.Guest;
+import se.cappello.hotel.data.entity.Reservation;
+import se.cappello.hotel.data.entity.Room;
+import se.cappello.hotel.data.repository.GuestRepository;
+import se.cappello.hotel.data.repository.ReservationRepository;
+import se.cappello.hotel.data.repository.RoomRepository;
 
 import java.text.DateFormat;
 import java.text.ParseException;
